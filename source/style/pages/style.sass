@@ -1,0 +1,113 @@
+body
+    font-family: sans-serif
+.wrapper
+    max-width: 1080px
+    margin: 0 auto
+    width: 100%
+.header
+    padding-bottom: 19px
+    background: linear-gradient(0deg, #EADDCC, #EADDCC), linear-gradient(270deg, #A28A77 0%, #87705F 100%)
+    & > .wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    & .logo
+        display: flex
+        align-items: center
+        text-decoration: none
+        & p
+            margin: 0
+            font-size: 18px
+            line-height: 22px
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #000000
+            width: 165px
+        & img
+            margin-right: 35px
+.header__contacts
+    & p
+        margin: 0
+        font-size: 15px
+        line-height: 19px
+        color: #000000
+        display: flex
+        align-items: center
+        & img
+            margin-right: 16px
+.header__tel
+    margin-top: 21px
+    display: flex
+    align-items: center
+    & img
+        margin-right: 16px
+    & a
+        text-decoration: none
+        font-size: 15px
+        line-height: 19px
+        color: #000000
+        &:hover
+            text-decoration: underline
+.header__btn
+    display: flex
+    flex-direction: column
+    align-items: center
+    & p
+        margin: 19px 0 0 0
+        display: flex
+        align-items: center
+        font-size: 15px
+        line-height: 19px
+        color: #000000
+        & img
+            margin-right: 16px
+    & a
+        text-decoration: none
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 247px
+        height: 42px
+        border-radius: 50px
+        background: #E31E24
+        font-size: 14px
+        line-height: 23px
+        box-sizing: border-box
+        border: 1px solid #E31E24
+        color: #fff
+        transition: all .4s ease-in-out
+        &:hover
+            background: #EADDCC
+            color: #E31E24
+        &:active
+            border-color: #87705F
+            color: #87705F
+        &:hover path
+            stroke: #E31E24
+        &:active path
+            stroke: #87705F
+        & svg
+            margin-right: 16px
+            & path
+                transition: all .4s ease-in-out  
+.menu
+    background: linear-gradient(0deg, #87705F, #87705F), #E31E24
+    & ul
+        margin: 0
+        padding: 0
+        list-style: none
+        display: flex
+        & li
+            & a
+                display: block
+                text-decoration: none
+                padding: 13px 20px
+                font-size: 13px
+                line-height: 23px
+                letter-spacing: 0.02em
+                text-transform: uppercase
+                font-weight: bold
+                color: #FFFFFF
+                transition: all .4s ease-in-out
+                &:hover
+                    background: #E31E24
